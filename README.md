@@ -29,7 +29,7 @@
 ## Исходный код
 Ниже приведён полный исходный код программы для извлечения и записи подлинных таблиц:
 [convert_html_to_excel](convert_html_to_excel_v_2.9.py)
-    
+
     import sys
     import os
     from argparse import ArgumentError
