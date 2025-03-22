@@ -20,7 +20,7 @@
 ## Установка и запуск
 1. Создайте виртуальную среду (рекомендуется)
 2. Установите необходимые библиотеки:
-    pip install -r [requiments.txt](https://github.com/Marks473/-/blob/main/requiments.txt)
+    pip install -r [requiments.txt](requiments.txt)
 2. Запустите скрипт, например:
     python script.py -file path/to/localfile.html out.xlsx
     или
@@ -28,7 +28,7 @@
 
 ## Исходный код
 Ниже приведён полный исходный код программы для извлечения и записи подлинных таблиц:
-
+[convert_html_to_excel](convert_html_to_excel_v_2.9.py)
     
     import sys
     import os
