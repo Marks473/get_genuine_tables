@@ -29,7 +29,7 @@
 ## Исходный код
 Ниже приведён полный исходный код программы для извлечения и записи подлинных таблиц:
 
-    ```python
+    
     import sys
     import os
     from argparse import ArgumentError
@@ -419,4 +419,3 @@
         genuine_tables = get_genuine_tables(data['tables'])
         write_to_excel(data['xlsx_path'], genuine_tables)
         os.startfile(data['xlsx_path'])
-    ```
