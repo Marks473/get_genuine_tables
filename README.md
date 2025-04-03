@@ -14,6 +14,7 @@
 - Объединение ячеек с учётом `rowspan` и `colspan`.
 - Вывод каждой таблицы на отдельный лист в Excel.
 - Поддержка вертикальных, горизонтальных, а также развёрнутых таблиц благодаря проверкам и транспонированию.
+- Делать поиск по размещённым на сайте/файле ссылкам на другие сайты/файлы с углублением до заданного уровня. 
 
 ## Пример сценария использования
 1. Подготовьте HTML-файл с таблицами или укажите ссылку (URL) на веб-страницу, содержащую таблицы.
@@ -28,9 +29,9 @@
 2. Установите необходимые библиотеки:
     pip install -r [requiments.txt](requiments.txt)
 2. Запустите скрипт, например:
-    python script.py -file path/to/localfile.html out.xlsx
+    python script.py -file path/to/localfile.html out.xlsx 3
     или
-    python script.py -url https://example.com/page-with-table out.xlsx
+    python script.py -url https://example.com/page-with-table out.xlsx 3
 
 ## Исходный код
 Ниже приведён полный исходный код программы для извлечения и записи подлинных таблиц:
