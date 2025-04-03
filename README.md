@@ -29,9 +29,9 @@
 2. Установите необходимые библиотеки:
     pip install -r [requiments.txt](requiments.txt)
 2. Запустите скрипт, например:
-    python script.py -file path/to/localfile.html out.xlsx 3
+    `python script.py -file path/to/localfile.html out.xlsx 3`
     или
-    python script.py -url https://example.com/page-with-table out.xlsx 3
+    `python script.py -url https://example.com/page-with-table out.xlsx 3`
 
 ## Исходный код
 Ниже приведён полный исходный код программы для извлечения и записи подлинных таблиц:
